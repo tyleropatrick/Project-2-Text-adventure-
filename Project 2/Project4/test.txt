@@ -1,0 +1,36 @@
+REMARK: --- a test game ---
+WIN_ROOM: 1
+WIN_ITEM: bat
+WIN_ITEM: ball
+WIN_TEXT: The bat and ball are in the win room! You win!
+
+REMARK: ------ ROOM 0 -------
+ROOM: ROOM 0
+You are in Room 0. To win, take the bat and ball into the Room 1 (west) and drop them.
+SOUTH: 2
+WEST:  1
+ITEM: bat
+It is a wooden baseball bat.
+ITEM: ball
+It is a dirty baseball.
+ITEM: raquet
+It is an old tennis raquet.
+ITEM: pen
+It is a blue ink pen.
+ITEM: book
+It is a CS 215 text book.
+
+
+REMARK: -------- ROOM 1 ------
+ROOM: ROOM 1
+This is room 1, the win room.
+EAST: 0
+
+REMARK: -------- ROOM 2 ------
+ROOM: ROOM 2
+This is room 2. You should see this when you do "look" or "l" in this room.
+ITEM: rock
+It is a brown rock.
+NORTH: 0
+
+END:
